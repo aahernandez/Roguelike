@@ -1,0 +1,28 @@
+<Features>
+	<Feature name="Statue">
+		<Aspects isSolid="true" isDestroyable="false" isOpenable="false" damageDealt="0"/>
+		<Glyph glyph='S'/>
+		<GlyphColor color="255, 0, 255"/>
+	</Feature>
+	<Feature name="Chest">
+		<Aspects isSolid="true" isDestroyable="false" isOpenable="true" damageDealt="0"/>
+		<Glyph glyph='$'/>
+		<GlyphColor color="255, 0, 255"/>
+		<LootTable table="Chest"/>
+	</Feature>
+	<Feature name="Spike Pit">
+		<Aspects isSolid="false" isDestroyable="false" isOpenable="false" damageDealt="2"/> 
+		<Glyph glyph='^'/>
+		<GlyphColor color="255, 0, 255"/>
+	</Feature>
+	<Feature name="TeleporterExit">
+		<Aspects isSolid="false" isDestroyable="false" isOpenable="false" damageDealt="0"/> 
+		<Glyph glyph='<'/>
+		<GlyphColor color="255, 0, 255"/>
+	</Feature>
+	<Feature name="TeleporterEntrance">
+		<Aspects isSolid="false" isDestroyable="false" isOpenable="false" damageDealt="0"/> 
+		<Glyph glyph='>'/>
+		<GlyphColor color="255, 0, 255"/>
+	</Feature>
+</Features>

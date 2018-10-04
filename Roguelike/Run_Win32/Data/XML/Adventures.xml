@@ -1,0 +1,29 @@
+<Adventures>
+	<Adventure name="Traveler" quest="Find the Map to Return Home">
+    	<StartConditions startLevel="Generic Level" startTileType="grass"/>
+    	<VictoryConditions haveItems="Map"/>
+    	<IntroBlurb>
+    		You're utterly and hopelessly lost, but if
+    		you can find a map, then you'll be able
+    		to find your way home.
+    	</IntroBlurb>
+    	<VictoryBlurb>
+    		You found the map, and can now return home!
+    	</VictoryBlurb>
+    	<FailureBlurb>
+    		You perished without ever finding the map. 
+    		As you take your last breath, you wonder 
+    		if things could have turned out better if
+    		you had made different choices.
+    	</FailureBlurb>
+    	<Level name="Generic Level" mapDefinition="TestBuilder">
+    		<Exit type="TeleporterExit" destinationLevel="Snow Rooms" destinationTile="snow" createDestinationFeature="TeleporterEntrance"/>
+    	</Level>
+    	<Level name="Snow Rooms" mapDefinition="SnowObsidianBuilder">
+   			<Exit type="TeleporterExit" destinationLevel="Volcanic Level" destinationTile="dirt" createDestinationFeature="TeleporterEntrance"/>
+    	</Level>
+    	<Level name="Volcanic Level" mapDefinition="VolcanicBuilder">
+    		<Item type="Map" onTileType="dirt"/>
+    	</Level>
+  	</Adventure>
+</Adventures>

@@ -1,0 +1,25 @@
+<MapBuilders>
+	<MapBuilder name = "TestBuilder">
+		<Generators>
+			<PerlinNoise name="GenericMap"/>
+			<CellularAutomata name="SandOnBeach"/>
+			<FromFile name="TestMap1"/>
+			<FromFile name="TestMap2"/>
+		</Generators>
+	</MapBuilder>
+	<MapBuilder name = "SnowObsidianBuilder">
+		<Generators>
+			<CellularAutomata name="FillSnow"/>
+			<FromFile name="BorderObsidian"/>
+			<RoomsAndCorridors name="MediumObsidianRooms"/>
+		</Generators>
+	</MapBuilder>
+	<MapBuilder name = "VolcanicBuilder">
+		<Generators>
+			<PerlinNoise name="GenericVolcanicMap"/>
+			<CellularAutomata name="FillDirt"/>
+			<FromFile name="BorderObsidian"/>
+			<RoomsAndCorridors name="SmallObsidianDirtRooms"/>
+		</Generators>
+	</MapBuilder>
+</MapBuilders>

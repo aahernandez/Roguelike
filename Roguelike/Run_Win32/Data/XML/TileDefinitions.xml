@@ -1,0 +1,60 @@
+<TileDefinitions>
+	<TileDefinition name="grass" isSolid="false" isOpaque="true" isPassable="true">
+		<FillColor color="26, 158, 31"/>
+		<FillColor color="11, 119, 16"/>
+		<FillColor color="28, 158, 0"/>
+		<FillColor color="38, 142, 15"/>
+		<GlyphColor color="255, 255, 255"/>
+	</TileDefinition>
+
+	<TileDefinition name="stone" isSolid="true" isOpaque="true" isPassable="false">
+		<FillColor color="211, 211, 211"/>
+		<FillColor color="222, 222, 222"/>
+		<GlyphColor color="255, 255, 255"/>
+	</TileDefinition>
+
+	<TileDefinition name="dirt" isSolid="false" isOpaque="true" isPassable="true">
+		<FillColor color="102, 51, 0"/>
+		<FillColor color="110, 60, 0"/>
+		<GlyphColor color="95, 45, 0"/>
+	</TileDefinition>
+
+	<TileDefinition name="sand" isSolid="false" isOpaque="true" isPassable="true">
+		<FillColor color="194, 178, 128"/>
+		<FillColor color="186, 168, 111"/>
+		<GlyphColor color="95, 45, 0"/>
+	</TileDefinition>
+
+	<TileDefinition name="obsidian" isSolid="true" isOpaque="true" isPassable="false">
+		<FillColor color="50, 50, 50"/>
+		<GlyphColor color="255, 255, 255"/>
+	</TileDefinition>
+
+	<TileDefinition name="water" isSolid="false" isOpaque="false" isPassable="false">
+		<FillColor color="64, 164, 223"/>
+		<FillColor color="72, 159, 223"/>
+		<FillColor color="98, 168, 229"/>
+		<GlyphColor color="255, 255, 255"/>
+	</TileDefinition>
+
+	<TileDefinition name="lava" isSolid="false" isOpaque="true" isPassable="false">
+		<FillColor color="102, 24, 19"/>
+		<FillColor color="150, 71, 3"/>
+		<FillColor color="147, 54, 14"/>
+		<GlyphColor color="255, 255, 255"/>
+	</TileDefinition>
+
+	<TileDefinition name="ice" isSolid="false" isOpaque="false" isPassable="true">
+		<FillColor color="123, 173, 173"/>
+		<FillColor color="93, 158, 158"/>
+		<FillColor color="14, 117, 117"/>
+		<GlyphColor color="255, 255, 255"/>
+	</TileDefinition>
+
+	<TileDefinition name="snow" isSolid="false" isOpaque="true" isPassable="true">
+		<FillColor color="216, 209, 205"/>
+		<FillColor color="196, 188, 184"/>
+		<FillColor color="242, 232, 227"/>
+		<GlyphColor color="255, 255, 255"/>
+	</TileDefinition>
+</TileDefinitions>

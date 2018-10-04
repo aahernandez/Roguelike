@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="General\Core">
+      <UniqueIdentifier>{ca0c01c1-7457-4f0a-98ae-6c668e3b6ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Gameplay">
+      <UniqueIdentifier>{30c8eace-5378-473a-a86f-8d94e1a7f37e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\BuildersDefinitionsGenerators">
+      <UniqueIdentifier>{4e07def1-15d9-4b4f-97a2-83a9672b18e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\AI">
+      <UniqueIdentifier>{9719e408-cd87-40bd-a670-629d2e522714}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>General\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>General\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterBuilder.cpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="TileDefinition.cpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>General\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Feature.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGeneratorFromFile.cpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGeneratorRoomsAndCorridors.cpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureBuilder.cpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBuilder.cpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="Stats.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavior.cpp">
+      <Filter>General\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="PursueBehavior.cpp">
+      <Filter>General\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="WanderBehavior.cpp">
+      <Filter>General\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="FleeBehavior.cpp">
+      <Filter>General\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="LootBuilder.cpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsScreen.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="PathGenerator.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackBehavior.cpp">
+      <Filter>General\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="MapBuilder.cpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenerator.cpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGeneratorCellularAutomata.cpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGeneratorPerlinNoise.cpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventureBuilder.cpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>General\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterBuilder.hpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="TileDefinition.hpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>General\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Feature.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDrivenDefinition.hpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDrivenBuilder.hpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGeneratorFromFile.hpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGeneratorRoomsAndCorridors.hpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureBuilder.hpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBuilder.hpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="Stats.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavior.hpp">
+      <Filter>General\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="PursueBehavior.hpp">
+      <Filter>General\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="WanderBehavior.hpp">
+      <Filter>General\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="FleeBehavior.hpp">
+      <Filter>General\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="LootBuilder.hpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsScreen.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="PathGenerator.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackBehavior.hpp">
+      <Filter>General\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="MapBuilder.hpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenerator.hpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGeneratorCellularAutomata.hpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGeneratorPerlinNoise.hpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventureBuilder.hpp">
+      <Filter>General\BuildersDefinitionsGenerators</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

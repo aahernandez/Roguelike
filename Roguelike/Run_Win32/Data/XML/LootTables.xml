@@ -1,0 +1,23 @@
+<LootTables>
+	<!-- Lower weights means a higher spawn chance -->
+	<LootTable name="Common">
+		<Item name="Boots of Normal Speed" weight="1"/>
+		<Item name="Leather Helmet" weight="3"/>
+	</LootTable>
+	<LootTable name="Uncommon">
+		<Item name="Iron Sword" weight="2"/>
+		<Item name="Leather Helmet" weight="3"/>
+		<Item name="Potion" weight="4"/>
+	</LootTable>
+	<LootTable name="Rare">
+		<Item name="Spiked Helm of Unbalanceness" weight="1"/>
+		<Item name="Leather Helmet" weight="1"/>
+	</LootTable>
+	<LootTable name="Chest">
+		<Item name="Boots of Normal Speed" weight="1"/>
+		<Item name="Iron Sword" weight="2"/>
+		<Item name="Leather Helmet" weight="3"/>
+		<Item name="Potion" weight="4"/>
+		<Item name="Spiked Helm of Unbalanceness" weight="6"/>
+	</LootTable>
+</LootTables>

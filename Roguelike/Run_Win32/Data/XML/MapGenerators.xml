@@ -1,0 +1,62 @@
+<MapGenerators>
+	<MapGeneratorFromFile name="TestMap1" filePath="Data/XML/Maps/TestMap1.xml" offsetX="25,30" offsetY="10, 12" isMirrored="true" rotation="0,0">
+		<Key symbol="#" tile="obsidian"/>
+		<Key symbol="." tile="dirt"/>
+	</MapGeneratorFromFile>
+
+	<MapGeneratorFromFile name="TestMap2" filePath="Data/XML/Maps/TestMap2.xml" offsetX="0,0" offsetY="0, 0" isMirrored="false" rotation="0,0">
+		<Key symbol="#" tile="stone"/>
+	</MapGeneratorFromFile>
+
+	<MapGeneratorFromFile name="BorderObsidian" filePath="Data/XML/Maps/TestMap2.xml" offsetX="0,0" offsetY="0, 0" isMirrored="false" rotation="0,0">
+		<Key symbol="#" tile="obsidian"/>
+	</MapGeneratorFromFile>
+	
+	<MapGeneratorRoomsAndCorridors name="SmallRoom" maxRooms="8" roomWidthRange="4,5" roomHeightRange="4,5" defaultTile="stone" interiorTile="grass" pathTile="dirt" canOverlap="false" pathStraightness="0.5"/>
+	
+	<MapGeneratorRoomsAndCorridors name="MediumRoom" maxRooms="8" roomWidthRange="4,7" roomHeightRange="4,7" defaultTile="stone" interiorTile="grass" pathTile="dirt" canOverlap="false"pathStraightness="1.0"/>
+
+	<MapGeneratorRoomsAndCorridors name="MediumObsidianRooms" maxRooms="8" roomWidthRange="4,7" roomHeightRange="4,7" defaultTile="obsidian" interiorTile="snow" pathTile="ice" canOverlap="false"pathStraightness="1.0"/>
+
+	<MapGeneratorRoomsAndCorridors name="SmallObsidianDirtRooms" maxRooms="8" roomWidthRange="4,5" roomHeightRange="4,5" defaultTile="obsidian" interiorTile="dirt" pathTile="dirt" canOverlap="false" pathStraightness="0.5"/>
+	
+	<MapGeneratorCellularAutomata name="ObsidianGate" numIterations="1" chanceToRun="0.7">
+		<Rules>
+			<Rule numNeighbors="1" isFewerThan="false" ifTile="stone" neighborTile="dirt" newTile="obsidian"/>
+		</Rules> 
+	</MapGeneratorCellularAutomata>
+
+	<MapGeneratorCellularAutomata name="SandOnBeach" numIterations="1" chanceToRun="1.0">
+		<Rules>
+			<Rule numNeighbors="1" isFewerThan="false" ifTile="grass" neighborTile="water" newTile="sand"/>
+		</Rules> 
+	</MapGeneratorCellularAutomata>
+
+	<MapGeneratorCellularAutomata name="FillSnow" numIterations="1" chanceToRun="1.0">
+		<Rules>
+			<Rule numNeighbors="1" isFewerThan="false" ifTile="grass" neighborTile="grass" newTile="snow"/>
+			<Rule numNeighbors="1" isFewerThan="false" ifTile="grass" neighborTile="snow" newTile="snow"/>
+		</Rules> 
+	</MapGeneratorCellularAutomata>
+
+	<MapGeneratorCellularAutomata name="FillDirt" numIterations="1" chanceToRun="1.0">
+		<Rules>
+			<Rule numNeighbors="1" isFewerThan="false" ifTile="grass" neighborTile="grass" newTile="dirt"/>
+			<Rule numNeighbors="1" isFewerThan="false" ifTile="grass" neighborTile="dirt" newTile="dirt"/>
+		</Rules> 
+	</MapGeneratorCellularAutomata>
+	
+	<MapGeneratorPerlinNoise name="GenericMap" scale="10.0" numOctaves="2" persistance="0.15" octaveScale="2.0" chanceToRun="1.0">
+		<Rules>
+			<Rule ifTile="grass" ifRange="-1.0,-0.5" newTile="water"/>
+			<Rule ifTile="grass" ifRange="0.75,1.0" newTile="stone"/>
+		</Rules> 
+	</MapGeneratorPerlinNoise>
+
+	<MapGeneratorPerlinNoise name="GenericVolcanicMap" scale="10.0" numOctaves="2" persistance="0.15" octaveScale="2.0" chanceToRun="1.0">
+		<Rules>
+			<Rule ifTile="grass" ifRange="-1.0,-0.5" newTile="lava"/>
+			<Rule ifTile="grass" ifRange="0.75,1.0" newTile="obsidian"/>
+		</Rules> 
+	</MapGeneratorPerlinNoise>
+</MapGenerators>

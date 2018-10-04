@@ -1,0 +1,48 @@
+<Items>
+	<Item name="Iron Sword">
+		<EquipSlot slot="lefthand"/>
+		<Glyph glyph='/'/>
+		<GlyphColor color="255, 213, 61"/>
+		<StatBonus str="1" dex="0" con="0" int="0" wis="0" cha="0"/>
+	</Item>
+	<Item name="Leather Helmet">
+		<EquipSlot slot="head"/>
+		<Glyph glyph='*'/>
+		<GlyphColor color="255, 213, 61"/>
+		<StatBonus str="0" dex="0" con="1" int="0" wis="1" cha="0"/>
+	</Item>
+	<Item name="Boots of Normal Speed">
+		<EquipSlot slot="feet"/>
+		<Glyph glyph='*'/>
+		<GlyphColor color="255, 213, 61"/>
+		<StatBonus str="0" dex="1" con="0" int="0" wis="0" cha="0"/>
+	</Item>
+	<Item name="Potion">
+		<EquipSlot slot="none"/>
+		<Glyph glyph='+'/>
+		<GlyphColor color="255, 213, 61"/>
+		<Heal amount="4,10"/>
+	</Item>
+	<Item name="Spiked Helm of Unbalanceness">
+		<EquipSlot slot="head"/>
+		<Glyph glyph='*'/>
+		<GlyphColor color="255, 213, 61"/>
+		<StatBonus str="1" dex="2" con="3" int="2" wis="1" cha="3"/>
+	</Item>
+	<Item name="Lost Puppy">
+		<EquipSlot slot="none"/>
+		<Glyph glyph='p'/>
+		<GlyphColor color="163, 108, 0"/>
+	</Item>
+	<Item name="Map">
+		<EquipSlot slot="none"/>
+		<Glyph glyph='m'/>
+		<GlyphColor color="0, 255, 255"/>
+	</Item>
+	<Item name="Bow">
+		<EquipSlot slot="lefthand"/>
+		<Glyph glyph='}'/>
+		<GlyphColor color="229, 191, 0"/>
+		<StatBonus dex="1"/>
+	</Item>
+</Items>

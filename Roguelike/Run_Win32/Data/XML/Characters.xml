@@ -1,0 +1,38 @@
+<Characters>
+	<Character name="goblin">
+		<Glyph glyph='g'/>
+		<GlyphColor color="255, 0, 0"/>
+		<LootTable table="Uncommon"/>
+		<Stats str="10" dex="10" con="10" int="10" wis="10" cha="10"/>
+		<Faction faction="coalition"/>
+		<Behavior>
+			<Wander/>
+			<Attack/>
+			<Pursue sightRange="5"/>
+			<Flee skittishness="0.1" sightRange="5"/>
+		</Behavior>
+	</Character>
+	<Character name="orc">
+		<Glyph glyph='o'/>
+		<GlyphColor color="0, 0, 255"/>
+		<LootTable table="Rare"/>
+		<Stats str="10" dex="10" con="10" int="10" wis="10" cha="10"/>
+		<Faction faction="coalition"/>
+		<Behavior>
+			<Wander/>
+			<Attack/>
+			<Pursue sightRange="15"/>
+		</Behavior>
+	</Character>
+	<Character name="deer">
+		<Glyph glyph='d'/>
+		<GlyphColor color="0, 255, 255"/>
+		<LootTable table="Common"/>
+		<Stats str="10" dex="10" con="10" int="10" wis="10" cha="10"/>
+		<Faction faction="nature"/>
+		<Behavior>
+			<Wander/>
+			<Flee skittishness="0.9" sightRange="20"/>
+		</Behavior>
+	</Character>
+</Characters>
