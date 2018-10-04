@@ -109,7 +109,7 @@ void StatsScreen::RenderHealth() const
 	std::string maxHealthHighlightString = maxHealthColor.GetAsString();
 	std::string currentHealthHighlightString = currentHealthColor.GetAsString();
 	std::string healthString = Stringf("Health: %s%i{-}/%s%i", currentHealthHighlightString.c_str(), player->m_currentHealth, maxHealthHighlightString.c_str(), player->m_maxHealth);
-	g_theSimpleRenderer->DrawText2DCenteredOnPosition(healthString.c_str(), Vector2(1467.f, 773.f));
+	g_theSimpleRenderer->DrawText2D(healthString.c_str(), Vector2(1100.f, 773.f));
 }
 
 void StatsScreen::RenderInventory() const
